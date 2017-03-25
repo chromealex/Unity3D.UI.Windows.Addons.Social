@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446342dfaa591034fbdeeb9de4d415f0, type: 3}
+  m_Name: VKSettings
+  m_EditorClassIdentifier: 
+  standardUsersSettings:
+    loadUsersQuery: {fileID: 11400000, guid: 366d925dcfe3e70479b90623c44bbb3e, type: 2}
+  standardFriendsSettings:
+    loadFriendsQuery: {fileID: 11400000, guid: 95f573ba5ac31284490c9373474088f8, type: 2}
+  standardProfileSettings:
+    loadProfileQuery: {fileID: 11400000, guid: 3fae57ef62fcdf14c94aa1f1fedc5d08, type: 2}
+  authSettings:
+    authQuery: {fileID: 11400000, guid: 8396539fb56456647b32fd10dfdc8f4e, type: 2}
+    profileLoadType: 0
+    autoProfileQuery: {fileID: 11400000, guid: 17b56153a80005e46805c41cefa4621a, type: 2}
+  profileMainPhoto: photo_50
+  display: 0
+  declaredPermissionsGroup1:
+  - friends
+  - status
+  - email
+  declaredPermissionsGroup2:
+  - photos
+  - audio
+  - video
+  - docs
+  - notes
+  - pages
+  - wall
+  - groups
+  - messages
+  declaredPermissionsGroup3:
+  - notify
+  - notifications
+  - stats
+  - ads
+  declaredPermissionsGroup4:
+  - offline
+  - nohttps
+  permissions: []
